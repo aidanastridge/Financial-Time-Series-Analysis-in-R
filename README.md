@@ -1,2 +1,1 @@
-# Time-Series-Analysis-with-R
-Time Series Analysis with R
+# Financial Time-Series-Analysis-with-R
