@@ -20,6 +20,8 @@ Montreal’s House Price Index measures the registered prices of houses over tim
 * Data error
 * High-turnover frequency
 
+Weighted Sales Pairs: The weighted sales pairs are the most challenging of calculations found within the index. Significant assumptions must be made: Not every sales pair should contribute the same to the index price. A popular method of attributing weight is taking the percentage-change in price, modelling the latter as a distribution (histogram) and taking those weights – the pairs with similar percentage changes in price are associated with their weight, and therefore placed either higher or lower in importance for the index calculation.
+
 ### Analysis
 
 * ACF
