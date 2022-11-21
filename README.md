@@ -26,9 +26,10 @@ Weighted Sales Pairs: The weighted sales pairs are the most challenging of calcu
 
 Defined as repeat sales methodology, a property must have been sold twice to be considered for the index. After passing the endogenous checklist, the estimation of the index is calculated by casting all qualified paired values through a linear regression algorithm.
 
-### Final Model
+### Final Models
 
-Regression with Residuals ARIMA(3,0,1)
+* ARIMA (2,2,3)(3,2,1)[12] Zero-mean 
+* Second Differenced Regression with Residuals ARIMA(3,0,1)
 
 ### Analysis
 
