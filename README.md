@@ -7,7 +7,7 @@ This project aims to perform a time series analysis of the Montreal House Price 
 
 ### Introduction 
 
-The data is from the Teranet and National Bank of Canada (http://www.housepriceindex.ca/), these two companies devote themselves to give an independent rate of change of the Canadian single-family home-price. First, I will comment on the structure of this data, that is trend, seasonality, randomness though different plot (scatter plot, month plot, PACF and ACF) and different test. This part will to answer the question: “can the data become stationary?” Then we will perform transformations, in our case logarithmic and differencing, to convert the data into a stationary one. Then I continued by studying different ARIMA models for the data and make our choice based on AIC and the parsimonious principle. Then this model will be fitted to see the different coefficients and deriving the equation of our model. An important step will be the outcome of the sample forecasting that I will perform. At the last step, we will validate our model by an accuracy study. 
+The data is from the [Teranet and National Bank of Canada](http://www.housepriceindex.ca/), these two companies devote themselves to give an independent rate of change of the Canadian single-family home-price. First, I will comment on the structure of this data, that is trend, seasonality, randomness though different plot (scatter plot, month plot, PACF and ACF) and different test. This part will to answer the question: “can the data become stationary?” Then we will perform transformations, in our case logarithmic and differencing, to convert the data into a stationary one. Then I continued by studying different ARIMA models for the data and make our choice based on AIC and the parsimonious principle. Then this model will be fitted to see the different coefficients and deriving the equation of our model. An important step will be the outcome of the sample forecasting that I will perform. At the last step, we will validate our model by an accuracy study. 
 
 ### Data Description 
 
@@ -30,4 +30,4 @@ Montreal’s House Price Index measures the registered prices of houses over tim
 
 ### Source
 
-https://housepriceindex.ca/#maps=c11
+[Teranet and National Bank of Canada](http://www.housepriceindex.ca/)
