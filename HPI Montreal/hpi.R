@@ -42,7 +42,6 @@ dh2<-diff(dh1)
 
 acf(dh2)
 pacf(dh2)
-checkresiduals(dh2)
 
 #ARIMA
 auto.arima(dh2, trace=TRUE) #ARIMA(2,0,3)(2,0,0)[12]
