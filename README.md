@@ -28,8 +28,8 @@ Defined as repeat sales methodology, a property must have been sold twice to be 
 
 ### Final Models
 
-* ARIMA (2,2,3)(3,2,1)[12] with zero-mean 
-* Second Differenced Regression with Residuals ARIMA(3,0,1)
+* ARIMA (2,2,3)(3,2,1)[12] with zero-mean and log-transformed
+* Regression with Residuals ARIMA(3,0,1) with zero-mean, second differenced, and log-transformed
 
 ### Analysis
 
